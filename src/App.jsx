@@ -6,7 +6,7 @@ import './global.css'
 
 export function App() {
   return (
-    <>
+    <div>
       <Header/>
       
       <Post 
@@ -17,7 +17,6 @@ export function App() {
         author="Giovanni Monteiro"
         content="This text is just to validate my code."
       />
-    </>
-    
+      </div>
   )
 }
